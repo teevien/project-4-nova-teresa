@@ -14,24 +14,39 @@
         h1 {
             color:$secondaryColor;
             font-size:2.5rem;
-            letter-spacing:2px;
-            text-align:center;
+            // letter-spacing:2px;
+            text-align:left;
+            font-family:$primaryFont;
+            text-transform:uppercase;
+            width:15%;
+            font-weight:bold;
+            // border:1px solid red;
+            // font-weight:900;
+
+            // display:inline;
 
         span {
-            font-size: 3rem;
+            font-size: 3.3rem;
             display:block;
-            text-transform:uppercase; 
+            text-transform:none;
+            // text-transform:uppercase; 
+            font-family:$titleFont;
         }
     }
 
-    .titleIcon {
-        width:8%;
+    // .titleIcon {
+    //     width:10%;
+    //     // display:inline;
+    //     border:1px solid red;
 
         img {
-            width:100%;
-            
+            width:25%;
+            // height:30px;
+            // border:1px solid red;
+            // padding:0;
+            // margin:0;
         }
-    }
+    // }
 
     .searchBar {
         display:flex;

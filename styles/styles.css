@@ -133,7 +133,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif; }
 
 body {
   font-size: 1.6rem;
@@ -160,16 +161,18 @@ body {
     #random .header h1 {
       color: #B32929;
       font-size: 2.5rem;
-      letter-spacing: 2px;
-      text-align: center; }
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      width: 15%;
+      font-weight: bold; }
       #random .header h1 span {
-        font-size: 3rem;
+        font-size: 3.3rem;
         display: block;
-        text-transform: uppercase; }
-    #random .header .titleIcon {
-      width: 8%; }
-      #random .header .titleIcon img {
-        width: 100%; }
+        text-transform: none;
+        font-family: "Noto Serif", serif; }
+    #random .header img {
+      width: 25%; }
     #random .header .searchBar {
       display: -webkit-box;
       display: -ms-flexbox;
