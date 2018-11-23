@@ -211,11 +211,14 @@ input:focus {
 
 .selectionSection h2 {
   text-align: center;
-  margin-top: 5%; }
+  margin: 10% 0; }
 
 .cuisinesSection, .drinksSection {
   height: 100vh;
   border: 1px solid black; }
+  .cuisinesSection span, .drinksSection span {
+    display: block;
+    margin-top: 2%; }
 
 .cuisinesSection {
   background: #1a1a1a; }
@@ -224,7 +227,6 @@ input:focus {
   background: #262626; }
 
 .form {
-  margin-top: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

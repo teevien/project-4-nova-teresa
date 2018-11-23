@@ -1,11 +1,17 @@
 .selectionSection h2 {
     text-align:center;
-    margin-top:5%;
+    margin:10% 0;
 }
 
 .cuisinesSection, .drinksSection {
     height:100vh;
     border:1px solid black;
+
+    span {
+        display:block;
+        margin-top:2%;
+        // font-size:4rem;
+    }
 }
 
 .cuisinesSection {
@@ -17,7 +23,7 @@
 }
 
 .form {
-        margin-top:35vh;
+        // margin-top:35vh;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -32,38 +38,9 @@
             background:$primaryColor;
         }
 
-        // a:focus {
-        //     // border:2px solid $secondaryColor;
-        // }
-
     }
 
     
 
 
 
-
-
-
-    // .cuisinesSection, .drinksSection {
-    //     width:50%;
-    //     min-height:100vh;
-    //     // border:1px solid red;
-
-    //     form {
-    //         padding:5%;
-    //         // align-items: center;
-
-    //          label {
-    //         display:block;
-    //         }
-    //     }
-    // }
-
-    // a {
-    //     display:inline;
-    //     // border:1px solid red;
-    //     padding:0;
-    //     margin:0;
-    // }
-// }
