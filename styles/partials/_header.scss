@@ -32,6 +32,9 @@
 
         img {
             width:20%;
+            padding: 5px 8px;
+            background: $secondaryColor;
+            border-radius:60%;
             // position:absolute;
             // top:-15%;
             // right:25%;
@@ -62,6 +65,7 @@
     }
 }
 
-input:focus {
-            border:3px solid red;
-            }
+.fadeIn {
+    animation-duration:0.3s;
+}
+

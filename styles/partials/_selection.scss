@@ -1,6 +1,8 @@
 .selectionSection h2 {
     text-align:center;
     margin:10% 0;
+    // border-top:1px solid $secondaryColor;
+    // border-bottom:1px solid $secondaryColor;
 }
 
 .cuisinesSection, .drinksSection {
@@ -34,13 +36,17 @@
 
         a {
             text-decoration:none;
-            padding: 2%;
+            padding: 1%;
             background:$primaryColor;
+            border-radius:20px 25px;
+            // border:2px solid darken($secondaryColor,50);
         }
 
     }
 
-    
+    // a:hover {
+    //     color:
+    // }
 
 
 

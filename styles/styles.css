@@ -188,7 +188,10 @@ body {
         text-transform: capitalize;
         font-family: "Noto Serif", serif; }
     #random .header img {
-      width: 20%; }
+      width: 20%;
+      padding: 5px 8px;
+      background: whitesmoke;
+      border-radius: 60%; }
     #random .header .searchBar {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -206,8 +209,9 @@ body {
         border-radius: 50%;
         border: 0.5px solid #767676; }
 
-input:focus {
-  border: 3px solid red; }
+.fadeIn {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s; }
 
 .selectionSection h2 {
   text-align: center;
@@ -241,8 +245,9 @@ input:focus {
     margin: 2% 0; }
   .form a {
     text-decoration: none;
-    padding: 2%;
-    background: black; }
+    padding: 1%;
+    background: black;
+    border-radius: 20px 25px; }
 
 .resultsSection {
   background: #1a1a1a;
